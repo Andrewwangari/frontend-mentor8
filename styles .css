@@ -9,6 +9,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
+   
     
 }
 
@@ -36,7 +37,7 @@ header button {
     border: 1px solid hsl(321, 100%, 78%);
     padding: 5px 20px;
     border-radius: 25px;
-    font-size: 0.875em;
+    font-size: 0.875rem;
     cursor: pointer;
 }
 
@@ -50,12 +51,12 @@ header button {
 .first-section img {
     max-width: 100%;
     height: auto;
-    width: 700px;
+    width: 90%;
     margin-top: 50px;
 }
 
 .first-section h1 {
-    font-size: 2em;
+    font-size: 2rem;
     margin: 20px 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -74,7 +75,7 @@ header button {
     padding: 10px 40px;
     border-radius: 25px;
     border: none;
-    font-size: 0.756em;
+    font-size: 0.756rem;
     cursor: pointer;
 }
 
@@ -125,91 +126,292 @@ header button {
 
 .second-section aside p:first-of-type {
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     
   }
 
 .second-section aside p:first-of-type + p {
     
-    font-size: 1em;
+    font-size: 1rem;
     color: #575454;
   }
 
 /* this is the third section */
 
+svg {
+    margin-bottom: 0;
+    display: block;
+    
+      
+    
+}
+
 .third-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 15px;
-    text-align: center;
-    border: 1px solid black;
-    
+    padding: 20px 15px;
+    background-color:  hsl(207, 100%, 98%);
+    margin-top: 0;
     
 }
 
 .aside3 {
-      border: 1px solid black;
+      
       flex-basis: 50%;
+      text-align: left;
+      padding: 20px;
 }
 
 .aside4 {
-    border: 1px solid black;
+    
     flex-basis: 50%;
+    text-align: center;
+    
 }
 
+.aside3 > h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
 
-
-
-
-
-
-
-
-
-/*
-
-.third-section aside {
-    flex: 1;
-    padding: 10px;
-    max-width: 300px;
-    text-align: center;
+.aside3 > p {
+    font-size: 0.756rem;
+    line-height: 1.5;
+  
 }
 
 .aside4 img {
-    width: 600px;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+  }
+
+/* this is the fourth section */
+
+.fourth-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px;
 }
-/*
-.third-section aside {
-    flex: 1;
-    padding: 10px;
-    max-width: 300px;
+
+.aside5 {
+    flex-basis: 50%;
+
     text-align: center;
 }
 
-.section-third aside img {
-    max-width: 100%;
-    max-height: 100%;
+.aside5 > img {
+    max-width: 80%;
     height: auto;
+}
+
+.aside6 {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.aside6 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aside6 p {
+    font-size: 0.756rem;
+    
+    line-height: 1.5;
+    
+}
+
+/*this is the fifth section*/
+
+svg {
     display: block;
-    margin: 0 auto;
+}
+
+.fifth-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px;
+    background-color: hsl(207, 100%, 98%);
+}
+
+.aside7 {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.aside7 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aside7 p {
+    font-size: 0.756rem;
+    line-height: 1.5;
+
+}
+
+.aside8 {
+      flex-basis: 50%;
+      text-align: center;
+}
+
+.aside8 img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* this is the sixth Section */
+
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sixth-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.sixth-section button {
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 0.756rem;
+    cursor: pointer;
+}
+
+/* this is the footer section */
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 15px;
+}
+
+.footer-logo img {
+    filter: brightness(0) invert(1);
+}
+    
+.aside9 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+}
+
+.aside9 > p {
+    font-size: 0.756rem;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+ 
+.phone-icon > p {
+    font-size: 0.756rem;
+    padding: 10px;
+}
+
+.email-icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.email-icon > p {
+    font-size: 0.756rem;
+    padding: 10px;
+}
+
+.social-logo {
+    margin-top: 20px;
+
+  display: flex;
+    
+}
+.social-logo img {
+    filter: brightness(0) invert(1);
+}
+
+.fb-logo,.insta-logo,.twitter-logo {
+       margin-left: 10px;
+}
+
+.aside10 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    
+}
+
+.aside10 > h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    
+} 
+
+.aside10 > p {
+    font-size: 0.756rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+footer input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
     
   }
   
-  .section-third h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  footer button[type="submit"] {
+    background-color: hsl(322, 100%, 66%) ; /* Choose an appropriate background color */
+    color: #ffff; /* Choose an appropriate text color */
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.756rem;
   }
   
-  .section-third p {
-    font-size: 16px;
+  form input[type="email"],
+  form button[type="submit"] {
+    display: inline-block; /* Set display to inline-block */
+    vertical-align: middle; /* Vertically align the elements */
+    
   }
-  
+
+  footer input[type="email"] {
+    margin-right: 5px;
+  }
+
+
 
 
 .attribution { 
@@ -220,3 +422,149 @@ header button {
         
     color: hsl(228, 45%, 44%); 
     }
+
+
+    /* Media Query for Screens around 680px */
+@media (max-width: 680px) {
+    /* Header */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header img {
+      margin-bottom: 20px;
+    }
+  
+    /* First Section */
+    .first-section img {
+      width: 80%;
+    }
+  
+    .first-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    /* Second Section */
+    .second-section {
+      padding: 30px;
+    }
+  
+    .second-section aside {
+      margin: 10px 0;
+    }
+  
+    /* Third Section */
+    .third-section {
+      flex-direction: column;
+    }
+  
+    .aside3,
+    .aside4 {
+      flex-basis: 100%;
+    }
+  
+    .aside3 {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    /* Fourth Section */
+    .fourth-section {
+      flex-direction: column;
+    }
+  
+    .aside5,
+    .aside6 {
+      flex-basis: 100%;
+    }
+  
+    .aside6 {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    /* Fifth Section */
+    .fifth-section {
+      flex-direction: column;
+    }
+  
+    .aside7,
+    .aside8 {
+      flex-basis: 100%;
+    }
+  
+    .aside7,
+    .aside8 {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    /* Sixth Section */
+    .sixth-section {
+      text-align: center;
+    }
+  
+    /* Footer */
+    footer {
+      background-color: hsl(192, 100%, 9%);
+      color: #fff;
+      padding: 20px 0;
+    }
+  
+    .footer-section {
+      flex-direction: column;
+      text-align: left;
+    }
+  
+    .aside9,
+    .aside10 {
+      flex-basis: 100%;
+    }
+  
+    .aside9 > p {
+      margin-top: 20px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .phone-icon,
+    .email-icon {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .phone-icon > p,
+    .email-icon > p {
+      padding: 10px;
+    }
+  
+    .social-logo {
+      margin-top: 20px;
+    }
+  
+    
+    .aside10 h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  
+    .aside10 > p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    footer input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 0;
+    }
+  
+    footer button[type="submit"] {
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+  }
+  
